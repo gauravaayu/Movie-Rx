@@ -29,6 +29,13 @@ const HeroBanner = () => {
 
 
     };
+  const clickSearch =() =>{
+      if(query.length > 0){
+        navigate(`/search/${query}`);
+
+      }
+
+    };
     useEffect(()=> {
       const bg = url.backdrop + data?.results?.[Math.floor(Math.random()*20)]?.backdrop_path;
       setBackground(bg);
