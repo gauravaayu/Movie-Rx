@@ -5,7 +5,7 @@ import {getApiConfiguration, getGenres} from './store/homeSlice';
 import { useSelector, useDispatch } from 'react-redux';
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import pageNotfound from "./pages/404/pageNotFound";
+import PageNotfound from "./pages/404/PageNotFound";
 import Details from "./pages/details/Details";
 import Explore from "./pages/explore/Explore";
 import Home from "./pages/home/Home";
